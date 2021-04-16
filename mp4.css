@@ -1,0 +1,45 @@
+body{
+	background: #259c86;
+}
+*{
+	box-sizing: border-box;
+}
+.wrapper{
+	max-width: 450px;
+	height: auto;
+	background: white;
+	padding:60px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 20px;
+}
+h1{
+	color: #259c86;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+::placeholder{
+	color: black
+}
+.input_field{
+	position: relative;
+	margin-bottom: 10px;
+}
+.input{
+	width: 100%;
+	padding: 12px;
+	padding-left: 40px;
+	border: none;
+	background: #259c86;
+}
+.social_media{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.input_field i{
+	position: absolute;
+}
